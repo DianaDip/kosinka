@@ -69,7 +69,7 @@ public class pole extends JPanel {
 		addMouseMotionListener(new myMouse2());
 		newGame = new game();
 		try {
-			fon = ImageIO.read(new File("F:\\картинки\\fon.png"));
+			fon = ImageIO.read(new File("..\\картинки\\fon.png"));
 		}
 		catch (Exception ex) {}
 		setLayout(null);
