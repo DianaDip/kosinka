@@ -19,7 +19,7 @@ public class game {
 	
 	public game() {
 		try {
-			rubashka = ImageIO.read(new File("F:\\картинки\\k0.png"));
+			rubashka = ImageIO.read(new File("..\\картинки\\k0.png")); 
 			}
 		catch (Exception ex) {}
 		
@@ -356,7 +356,7 @@ public class game {
 	
 	private void load() {
 		for (int i=1;i<=52;i++) {
-			stopki[0].add(new karta("F:\\картинки\\k"+(i)+".png", rubashka, i));
+			stopki[0].add(new karta("..\\картинки\\k"+(i)+".png", rubashka, i));
 			}
 		}
 	
